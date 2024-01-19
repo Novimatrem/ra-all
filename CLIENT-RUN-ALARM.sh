@@ -84,8 +84,7 @@ echo ""
 git add --all
 git commit -m "update"
 git push -u origin main
-
-clear
+echo ""
 
 echo "It's alarming!"
 echo "Now wait a few minutes with this script open,"

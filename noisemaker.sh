@@ -324,5 +324,5 @@ echo ""
 
 killall espeak
 killall speech-dispatcher
-
+sleep 3720
 exit

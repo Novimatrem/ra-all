@@ -103,9 +103,11 @@ clear
 echo "It's alarming!"
 echo "Now wait a few minutes with this script open,"
 echo "so the other end has time to play it."
+echo ""
+echo "(waiting 6 minutes, DO NOT CLOSE SCRIPT)"
 
-
-sleep 120s
+sleep 180s
+sleep 180s
 
 
 clear

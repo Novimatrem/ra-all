@@ -84,6 +84,8 @@ echo "To set off alarm,"
 echo "Enter your GitHub personal access token info now."
 echo "(if prompted)"
 echo ""
+pwd
+echo ""
 git add --all
 git commit -m "update"
 git push -u origin main

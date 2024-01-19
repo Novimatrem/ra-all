@@ -85,10 +85,14 @@ echo "Enter your GitHub personal access token info now."
 echo "(if prompted)"
 echo ""
 
+cd "$(dirname "$0")"
+
 # ugly hax
 cd ra-all
 cd $ADDRAC
 # /ugly hax
+
+pwd 
 
 echo ""
 git add --all
@@ -120,9 +124,15 @@ while true; do
     esac
 done
 
-cd "$(dirname "$0")"
-cd $ADDRAC
 
+cd "$(dirname "$0")"
+
+# ugly hax
+cd ra-all
+cd $ADDRAC
+# /ugly hax
+
+pwd
 
 
 echo "0" > index.html

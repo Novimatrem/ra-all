@@ -99,7 +99,7 @@ git add --all
 git commit -m "update"
 git push -u origin main
 echo ""
-
+clear
 echo "It's alarming!"
 echo "Now wait a few minutes with this script open,"
 echo "so the other end has time to play it."
@@ -108,7 +108,7 @@ echo "so the other end has time to play it."
 sleep 120s
 
 
-
+clear
 echo "Should've been long enough."
 
 echo "Turn off her alarm? (y)"

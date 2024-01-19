@@ -1,6 +1,8 @@
 #!/bin/bash
 
-zenity --warning --text "Alarm noises!"
+cd "$(dirname "$0")"
+
+bash noisemaker.sh
 
 exit
 

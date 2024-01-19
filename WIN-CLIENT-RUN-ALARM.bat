@@ -10,10 +10,9 @@ echo Required dependencies:
 echo Git Bash, Microsoft's modern 'Windows Terminal'.
 echo.
 echo When you're ready to start,
-pause
 cls
 echo.
-echo Starting game...
+echo Starting...
 echo.
 cd /D "%~dp0"
 REM the pings are just for timeout/sleep, a small wait

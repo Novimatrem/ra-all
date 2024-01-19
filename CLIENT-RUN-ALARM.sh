@@ -67,6 +67,9 @@ echo ""
 #pwd
 #ls
 
+cd "$(dirname "$0")"
+cd $ADDRAC
+
 rm -rf testyes.txt
 rm -rf testno.txt
 
@@ -109,6 +112,10 @@ while true; do
         * ) echo "Please answer.";;
     esac
 done
+
+cd "$(dirname "$0")"
+cd $ADDRAC
+
 
 
 echo "0" > index.html

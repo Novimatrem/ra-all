@@ -84,7 +84,12 @@ echo "To set off alarm,"
 echo "Enter your GitHub personal access token info now."
 echo "(if prompted)"
 echo ""
-pwd
+
+# ugly hax
+cd ra-all
+cd $ADDRAC
+# /ugly hax
+
 echo ""
 git add --all
 git commit -m "update"

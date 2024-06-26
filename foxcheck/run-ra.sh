@@ -31,7 +31,13 @@ clear
 echo ""
 echo "Checking if the foxcheck is set..."
 echo ""
-git clone $ADDR
+#git clone $ADDR
+
+# bc his internet shitty
+mkdir novimatrem.gitlab.io
+cd novimatrem.gitlab.io
+curl -O https://novimatrem.gitlab.io/index.html
+
 echo ""
 
 
